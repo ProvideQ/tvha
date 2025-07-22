@@ -20,9 +20,9 @@ from qiskit_nature.second_q.mappers.fermionic_mapper import FermionicMapper
 from qiskit_nature.second_q.operators import ElectronicIntegrals
 from qiskit_nature.second_q.problems import ElectronicStructureProblem
 
-from tvha.fermionic_operator import FermionicOp
+# from tvha.fermionic_operator import FermionicOp
 
-# from .fermionic_operator import FermionicOp
+from .fermionic_operator import FermionicOp
 
 logger = logging.getLogger(__name__)
 
